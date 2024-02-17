@@ -1,0 +1,93 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #cf0202;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-highlight {
+    background-color: white;
+    padding: 20px;
+}
+
+.movie-details {
+    background-color: white;
+    padding: 20px;
+}
+
+.sidebar {
+    
+    background-color: #e2e2e2;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.movie-poster {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.movie-highlight h2 {
+    margin-top: 0;
+}
+
+.movie-details h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.movie-details p em {
+    font-style: italic;
+    color: #666;
+}
+
+.movie-review {
+    background-color: white;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.streaming-service-logo {
+    width: auto;
+    height: 25px;
+    margin: 2px;
+    align-content: center;
+    border-radius: 3%;
+    background-color: white;
+    padding: 2px;
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+/* Add additional styles as needed */
